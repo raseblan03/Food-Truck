@@ -232,24 +232,23 @@ th {
         margin-top: 25%;
     }
     .img1 {
-        width: 50%;
-        margin-left: 25%;
+        width: 49%;
+        margin-left: 0%;
     }
     .img2 {
-        width: 50%;
-        margin-left: 25%;
-        margin-right: 0%;
+        width: 49%;
+        margin-left: 0%;
     }
     .logo {
         width: 0%;
         height: 0%;
     }
     .e {
-        height: 35vw;
-        width: 55vw;
+        height: 70vw;
+        width: 70vw;
         display: flex;
         justify-content: center;
-        margin-left: 23%;
+        margin-left: 13%;
     }
     .container {
         max-width: auto;
