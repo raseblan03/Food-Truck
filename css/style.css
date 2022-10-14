@@ -221,24 +221,24 @@ th {
 
 @media(max-width: 1100px) {
     .wrapper {
-        width: 100vw;
+        width: 101vw;
         margin: 0vw;
         height: auto;
-        margin-left: 0%;
+        margin-left: 0vw;
+        margin-right: 0vw;
     }
     .img {
         width: 80%;
-        margin-right: 100%;
         margin-top: 25%;
     }
     .img1 {
         width: 50%;
-        margin-right: 100%;
         margin-left: 25%;
     }
     .img2 {
         width: 50%;
         margin-left: 25%;
+        margin-right: 0%;
     }
     .logo {
         width: 0%;
@@ -246,7 +246,7 @@ th {
     }
     .e {
         height: 35vw;
-        width: 50vw;
+        width: 55vw;
         display: flex;
         justify-content: center;
         margin-left: 23%;
@@ -259,5 +259,9 @@ th {
     body {
         width: 100vw;
         height: 100vw;
+    }
+    ul {
+        margin-bottom: 0%;
+        padding-left: 0%;
     }
 }
