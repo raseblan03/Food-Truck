@@ -104,8 +104,8 @@
     }
     
     .img5 {
-        width: 20%;
-        margin-left: 4%;
+        width: 20vw;
+        margin-left: 4vw;
     }
     
     td,
@@ -123,10 +123,8 @@
     }
     
     .e {
-        height: 32vw;
+        height: 27vw;
         width: 35vw;
-        display: flex;
-        justify-content: center;
         margin-left: 30%;
     }
     
@@ -152,11 +150,16 @@
         margin-left: 43vw;
     }
     
+    .slide {
+        margin: 10vw;
+        display: flex;
+    }
+    
     @media(max-width: 1800px) {
         .img5 {
-            width: 32%;
-            margin-left: 11%;
-            height: 40%;
+            width: 32vw;
+            margin-left: 11vw;
+            height: 32vw;
         }
         .titulo {
             width: 80vw;
@@ -171,10 +174,10 @@
         }
     }
     
-    @media(max-width: 1000px) {
+    @media(max-width: 1200px) {
         .titulo {
             width: 80vw;
-            height: 19vw;
+            height: 13vw;
             margin-right: 0vw;
             margin-left: 10vw;
             display: flex;
@@ -182,10 +185,10 @@
         }
         .titulo1 {
             margin-right: 0vw;
-            margin-left: 33vw;
+            margin-left: 0vw;
         }
         .wrapper {
-            width: 101vw;
+            width: 100vw;
             margin: 0vw;
             height: auto;
             margin-left: 0vw;
@@ -201,31 +204,27 @@
         }
         .img2 {
             width: 49%;
+            height: 20%;
             margin-left: 0%;
         }
         .img5 {
-            width: 60%;
-            margin-left: 23%;
+            width: 50vw;
+            height: 45vw;
+            margin-left: 25vw;
         }
         .logo {
             width: 0%;
             height: 0%;
         }
-        .e {
-            height: 70vw;
-            width: 70vw;
+        /* .e {
+            width: 40vw;
             display: flex;
-            justify-content: center;
             margin-left: 13%;
-        }
+        } */
         .container {
             max-width: auto;
             height: auto;
             margin-top: 10%;
-        }
-        body {
-            width: 100vw;
-            height: 100vw;
         }
         ul {
             margin-bottom: 0%;
@@ -236,7 +235,7 @@
     @media(max-width: 400px) {
         .titulo {
             width: 80vw;
-            height: 16vw;
+            height: 10vw;
             margin-right: 0vw;
             margin-left: 7vw;
             margin-top: 12%;
